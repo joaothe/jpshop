@@ -1,5 +1,7 @@
 # Jpshop
 
+You must create and config your own environment files, I put them in the gitignore.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
 ## Development server
