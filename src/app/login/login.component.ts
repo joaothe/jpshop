@@ -7,12 +7,9 @@ import * as firebase from 'firebase';
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
-export class LoginComponent implements OnInit {
+export class LoginComponent{
 
   constructor(private afAuth: AngularFireAuth) { }
-
-  ngOnInit() {
-  }
 
   login() {
     this.afAuth.auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider());
